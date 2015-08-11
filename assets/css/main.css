@@ -14,8 +14,12 @@ body{
 
 main{
     max-width: 500px;
-    margin: 10em auto 1em;
+    margin: 6em auto 0.8em;
     padding: 1em;
+}
+
+ul{
+    padding: 0;
 }
 
 li{
@@ -30,13 +34,14 @@ li{
 /* Styling */
 
 li a{
-    text-decoration: none;
+    border-bottom: 0;
 }
 
 a{
     font-weight: 300;
     color: inherit;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid ;
 }
 
 a:hover{
@@ -48,5 +53,23 @@ h2{
 }
 
 
+.about p{
+    text-transform: sentence-case;
+}
+
+.hire{
+    display: block;
+    margin: 0.8em auto;
+}
 
 
+/* Media Queries*/
+media screen and (min-width: 600px) {
+  main {
+    padding-top: 140px;
+  }
+
+  section  {
+    margin-bottom: 80px;
+  }
+}
