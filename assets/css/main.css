@@ -7,7 +7,6 @@ body{
     font-family: 'Roboto',Verdana,Helevetica;
     font-size: 18px;
     font-weight: 300;
-    line-height: 1.6;
 }
 
 /* Layout */
@@ -45,22 +44,14 @@ a{
 }
 
 a:hover{
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 h2{
     font-weight: 300;
+    margin-bottom: 0;
 }
 
-
-.about p{
-    text-transform: sentence-case;
-}
-
-.hire{
-    display: block;
-    margin: 0.8em auto;
-}
 
 
 /* Media Queries*/
