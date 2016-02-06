@@ -4,7 +4,7 @@
 body{
     background: #fff;
     color:#222;
-    font-family: 'Roboto',Verdana,Helevetica;
+    font-family: 'Roboto',Verdana,Helevetica,sans-serif;
     font-size: 18px;
     font-weight: 300;
 }
